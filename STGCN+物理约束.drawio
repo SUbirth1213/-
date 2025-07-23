@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
+  <diagram name="第 1 页" id="NZfT66FLkJb93SRBhMRh">
+    <mxGraphModel dx="1426" dy="743" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-11" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="304" y="51" width="316.8888888888889" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-1" value="原始输入数据&lt;div&gt;（气象、地形、水文观测数据）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="84sDWL57CP9Y3AOVTsNk-11" vertex="1">
+          <mxGeometry width="206.88888888888889" height="64.8529411764706" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-3" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" parent="84sDWL57CP9Y3AOVTsNk-11" vertex="1">
+          <mxGeometry x="77.77777777777777" y="64.8529411764706" width="38.888888888888886" height="57.64705882352941" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-4" value="&lt;div&gt;【图结构构建】&lt;/div&gt;&lt;div&gt;&lt;div&gt;（流域子流域关系建模，邻接矩阵）&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="84sDWL57CP9Y3AOVTsNk-11" vertex="1">
+          <mxGeometry y="122.5" width="206.88888888888889" height="64.8529411764706" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-5" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" parent="84sDWL57CP9Y3AOVTsNk-11" vertex="1">
+          <mxGeometry x="77.77777777777777" y="187.3529411764706" width="38.888888888888886" height="57.64705882352941" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-9" value="【STGCN】&lt;br&gt;（图卷积 + 时序卷积）" style="rounded=0;whiteSpace=wrap;html=1;" parent="84sDWL57CP9Y3AOVTsNk-11" vertex="1">
+          <mxGeometry y="245" width="210" height="64.8529411764706" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-10" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" parent="84sDWL57CP9Y3AOVTsNk-11" vertex="1">
+          <mxGeometry x="77.77777777777777" y="309.8529411764706" width="38.888888888888886" height="57.64705882352941" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-12" value="" style="group" parent="84sDWL57CP9Y3AOVTsNk-11" vertex="1" connectable="0">
+          <mxGeometry y="367.5" width="316.8888888888889" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-13" value="【分阶段训练】" style="rounded=0;whiteSpace=wrap;html=1;" parent="84sDWL57CP9Y3AOVTsNk-12" vertex="1">
+          <mxGeometry width="206.88888888888889" height="64.8529411764706" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-15" value="【后处理校正】&lt;div&gt;&lt;div&gt;- 预测结果融合（残差学习）&lt;/div&gt;&lt;div&gt;- 物理合理性修正&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="84sDWL57CP9Y3AOVTsNk-12" vertex="1">
+          <mxGeometry x="-3.1100000000000003" y="250" width="206.88888888888889" height="64.8529411764706" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-16" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" parent="84sDWL57CP9Y3AOVTsNk-12" vertex="1">
+          <mxGeometry x="74.66777777777777" y="314.8529411764706" width="38.888888888888886" height="57.64705882352941" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-17" value="【模型预测与输出】" style="rounded=0;whiteSpace=wrap;html=1;" parent="84sDWL57CP9Y3AOVTsNk-12" vertex="1">
+          <mxGeometry x="-3.1100000000000003" y="372.5" width="206.88888888888889" height="64.8529411764706" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-18" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" parent="84sDWL57CP9Y3AOVTsNk-12" vertex="1">
+          <mxGeometry x="74.66777777777777" y="437.3529411764706" width="38.888888888888886" height="57.64705882352941" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-19" value="&lt;div&gt;【结果评估】&lt;/div&gt;&lt;div&gt;（NSE、洪峰误差、滞时评估）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="84sDWL57CP9Y3AOVTsNk-12" vertex="1">
+          <mxGeometry x="-3.1100000000000003" y="495" width="210" height="64.8529411764706" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-22" value="阶段2：加入物理约束联合训练&lt;div&gt;&lt;div&gt;&amp;nbsp;约束1：新安江模型&lt;/div&gt;&lt;div&gt;&amp;nbsp;约束2：产流物理机制（水量平衡等）&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="84sDWL57CP9Y3AOVTsNk-12" vertex="1">
+          <mxGeometry x="110" y="120" width="206.88888888888889" height="64.8529411764706" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-23" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" parent="84sDWL57CP9Y3AOVTsNk-12" vertex="1">
+          <mxGeometry x="77.77999999999997" y="192.35000000000002" width="38.888888888888886" height="57.64705882352941" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-24" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" parent="84sDWL57CP9Y3AOVTsNk-12" vertex="1">
+          <mxGeometry x="78.79" y="-13.81" width="52" height="208.63" as="geometry" />
+        </mxCell>
+        <mxCell id="84sDWL57CP9Y3AOVTsNk-21" value="阶段1：普通训练（纯数据驱动）&lt;div&gt;输出初始流量预测&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="84sDWL57CP9Y3AOVTsNk-11" vertex="1">
+          <mxGeometry x="-120" y="487.5" width="206.88888888888889" height="64.8529411764706" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
